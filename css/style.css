@@ -114,7 +114,7 @@ li a:hover {
     width: 70%;
     margin: 1.5rem auto;
     text-align: center;
-    font-size: 18.3px;
+    font-size: 18px;
 }
 
 section {
@@ -232,4 +232,8 @@ input {
     height: auto;
     border-radius: 8px;
     margin: 5rem 2rem 0 0;
+}
+
+label {
+    display: none;
 }
