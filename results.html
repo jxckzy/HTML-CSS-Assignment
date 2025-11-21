@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Results</title>
+</head>
+<body>
+<h2>Font</h2>
+<p>Main HTML font is from <a href="https://fonts.google.com/specimen/Lato">Google Fonts. Name: Lato.</a></p>
+<p>Logo's font is from <a href="https://www.fontspace.com/search?q=Soora">Fontspace. Name: SooraChenival</a></p>
+<pre>
+    @font-face {
+        font-family: Lato;
+        src: url("../fonts/Lato-Regular.ttf") format("truetype");
+    }
+
+    @font-face {
+        font-family: SooraChenival;
+        src: url("../fonts/SooraChenival.ttf") format("truetype");
+    }
+
+    html {
+        font-family: Lato, sans-serif;
+    }
+
+    .logo-container {
+        display: flex;
+        width: 50%;
+        align-items: center;
+        gap: 0.5rem;
+        font-family: SooraChenival, sans-serif;
+    }
+</pre>
+<h2>Validation</h2>
+<p>
+    <img src="results/validator/validator1.png" alt="valid">
+    <img src="results/validator/validator2.png" alt="valid">
+    <img src="results/validator/validator3.png" alt="valid">
+</p>
+<h2>Lighthouse</h2>
+<p>
+    <img src="results/lighthouse/lighthouse1.png" alt="lighthouse">
+    <img src="results/lighthouse/lighthouse2.png" alt="lighthouse">
+    <img src="results/lighthouse/lighthouse3.png" alt="lighthouse">
+</p>
+<h2>Contrast</h2>
+<p>
+    <img src="results/contrast/contrast1.png" alt="contrast">
+    <img src="results/contrast/contrast2.png" alt="contrast">
+    <img src="results/contrast/contrast3.png" alt="contrast">
+</p>
+
+</body>
+</html>
